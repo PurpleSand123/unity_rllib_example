@@ -29,3 +29,17 @@ Reinforcement learning example using rllib  and unity ml agent
     cd ray
     python python/ray/setup-dev.py -y --skip _private dashboard
     ```
+
+3. Open ml-agents/Project with Unity
+    > **You should use the specific version of Unity of project**
+    >
+    >In the Unity Hub, go to Projects and add the project located within the zipped folder (click
+    >“ADD” in the Unity Hub Projects tab, then navigate to [unzipped folder]/Project and click 
+    >“Open”)
+4. Follow [RLlib guide](https://medium.com/distributed-computing-with-ray/reinforcement-learning-with-rllib-in-the-unity-game-engine-1a98080a7c0d)
+    >```bash
+    >python src/unity3d_env_local.py --env 3DBall --framework=torch
+    >
+    ># or execute the file
+    >python src/unity3d_env_local.py --env 3DBall --framework=torch
+    >```
